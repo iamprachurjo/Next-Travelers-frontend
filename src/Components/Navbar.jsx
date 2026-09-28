@@ -20,7 +20,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-white mx-auto container max-w-7xl py-1 text-[#172536]">
+    <header className="sticky top-0 z-50 mx-auto container max-w-7xl py-1 text-[#172536]">
       <div className="flex items-center justify-between px-4">
         {/* Logo */}
         <Link href="/">
@@ -50,7 +50,9 @@ const Navbar = () => {
         </nav>
         <div className="flex items-center justify-center gap-2">
           <Link href="/login">
-            <Button className="bg-[#FF9D0A] text-[#172536] hover:bg-[#E88400] hidden md:block">Login</Button>
+            <Button className="bg-[#FF9D0A] text-[#172536] hover:bg-[#E88400] hidden md:block">
+              Login
+            </Button>
           </Link>
 
           {/* Mobile Menu Button */}
@@ -72,7 +74,7 @@ const Navbar = () => {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.25, ease: "easeInOut" }}
-            className="md:hidden overflow-hidden bg-white border-t shadow-lg"
+            className="md:hidden overflow-hidden bg-transparent border-t shadow-lg"
           >
             <ul className="flex flex-col gap-5 p-5 font-medium">
               {navLinks.map((link) => (
