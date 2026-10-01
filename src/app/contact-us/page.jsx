@@ -7,7 +7,7 @@ import {
 
 const ContactPage = () => {
   return (
-    <main className="bg-[#F8FAFC]">
+    <main className="">
       {/* Hero */}
       <section className="bg-[#172536] px-6 py-20 text-center">
         <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#FF9D0A]">

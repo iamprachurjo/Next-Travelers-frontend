@@ -4,11 +4,11 @@ import about from "../../../public/assets/about.jpg";
 
 const AboutUs = () => {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white md:py-16 py-8">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Image */}
-          <div className="relative h-[450px] overflow-hidden rounded-2xl">
+          <div className="relative h-112 overflow-hidden rounded-2xl">
             <Image
               src={about}
               alt="Next Travelers"
