@@ -13,15 +13,15 @@ const Navbar = () => {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/all-packages", label: "Packages" },
+    { href: "/packages", label: "Packages" },
     { href: "/about-us", label: "About Us" },
     { href: "/contact-us", label: "Contact Us" },
     { href: "/blog", label: "Blog" },
   ];
 
   return (
-    <header className="sticky top-0 z-50 mx-auto container max-w-7xl py-1 text-[#172536]">
-      <div className="flex items-center justify-between px-4">
+    <header className="sticky top-0 z-50  bg-white w-full py-1 text-[#172536] shadow-sm">
+      <div className="flex items-center justify-between px-4 mx-auto max-w-7xl">
         {/* Logo */}
         <Link href="/">
           <Image
