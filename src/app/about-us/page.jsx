@@ -1,17 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
+import about from "../../../public/assets/about.jpg";
 
 const AboutUs = () => {
   return (
     <section className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-6">
-
         <div className="grid items-center gap-12 lg:grid-cols-2">
-
           {/* Image */}
           <div className="relative h-[450px] overflow-hidden rounded-2xl">
             <Image
-              src="/images/about-travel.jpg"
+              src={about}
               alt="Next Travelers"
               fill
               className="object-cover"
@@ -19,13 +18,9 @@ const AboutUs = () => {
 
             {/* Experience Badge */}
             <div className="absolute bottom-6 left-6 rounded-xl bg-white px-6 py-4 shadow-lg">
-              <p className="text-2xl font-bold text-[#172536]">
-                10+
-              </p>
+              <p className="text-2xl font-bold text-[#172536]">10+</p>
 
-              <p className="text-sm text-gray-500">
-                Travel Experiences
-              </p>
+              <p className="text-sm text-gray-500">Travel Experiences</p>
             </div>
           </div>
 
@@ -40,21 +35,20 @@ const AboutUs = () => {
             </h2>
 
             <p className="mt-5 leading-7 text-gray-600">
-              Next Travelers is a Bangladesh-based travel agency dedicated
-              to creating memorable journeys across the country. From the
-              peaceful tea gardens of Sylhet to the beaches, hills, forests,
-              and cultural destinations of Bangladesh, we help travelers
-              discover new places with confidence.
+              Next Travelers is a Bangladesh-based travel agency dedicated to
+              creating memorable journeys across the country. From the peaceful
+              tea gardens of Sylhet to the beaches, hills, forests, and cultural
+              destinations of Bangladesh, we help travelers discover new places
+              with confidence.
             </p>
 
             <p className="mt-4 leading-7 text-gray-600">
-              We focus on comfortable travel, carefully planned packages,
-              and experiences that make every journey special.
+              We focus on comfortable travel, carefully planned packages, and
+              experiences that make every journey special.
             </p>
 
             {/* Features */}
             <div className="mt-7 grid gap-4 sm:grid-cols-2">
-
               <div className="flex items-start gap-3">
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#FFF3D6] text-[#FF9D0A]">
                   ✓
@@ -86,18 +80,10 @@ const AboutUs = () => {
                   </p>
                 </div>
               </div>
-
             </div>
 
             {/* Button */}
-            <Link
-              href="/about"
-              className="mt-8 inline-block rounded-lg bg-[#FF9D0A] px-6 py-3 font-semibold text-[#172536] transition hover:bg-[#E88400]"
-            >
-              Learn More About Us
-            </Link>
           </div>
-
         </div>
       </div>
     </section>
