@@ -93,7 +93,7 @@ export default function ExploreSection() {
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         className="relative"
       >
-        <Link href={""}>
+        <Link href={"/packages"}>
           <Swiper
             modules={[Autoplay, Pagination]}
             loop

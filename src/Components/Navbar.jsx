@@ -15,7 +15,7 @@ const Navbar = () => {
     { href: "/", label: "Home" },
     { href: "/packages", label: "Packages" },
     { href: "/about-us", label: "About Us" },
-    { href: "/contact-us", label: "Contact Us" },
+    { href: "/Visa", label: "Visa" },
     { href: "/blog", label: "Blog" },
   ];
 
@@ -90,9 +90,9 @@ const Navbar = () => {
               ))}
 
               <li>
-                <Link href="/register" onClick={() => setIsOpen(false)}>
+                <Link href="/login" onClick={() => setIsOpen(false)}>
                   <Button className="bg-[#FF9D0A] text-[#172536] w-full">
-                    Create Account
+                    Login
                   </Button>
                 </Link>
               </li>

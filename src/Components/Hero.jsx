@@ -1,3 +1,5 @@
+
+
 const Hero = () => {
   return (
     <div>
@@ -17,24 +19,25 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[#172536]/60" />
 
         {/* Hero Content */}
-        <div className="relative z-10 flex h-full items-center justify-center text-center text-white">
-          <div>
-            <p className="mb-3 text-[#FF9D0A] font-semibold">Explore Sylhet</p>
+          <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
+    <p className="mb-3 text-sm font-medium uppercase tracking-wider text-[#FFB52E]">
+      Explore Bangladesh with Next Travelers
+    </p>
 
-            <h1 className="text-4xl font-bold md:text-6xl">
-              Discover Sylhet, Naturally
-            </h1>
+    <h1 className="max-w-3xl text-4xl font-bold text-white md:text-6xl">
+      Discover Bangladesh, Your Way
+    </h1>
 
-            <p className="mx-auto mt-5 max-w-2xl text-gray-200">
-              Explore the tea gardens, hills, rivers, and hidden beauty of
-              Sylhet with Next Travelers.
-            </p>
+    <p className="mt-5 max-w-2xl text-sm leading-6 text-white/90 md:text-base">
+      From the tea gardens of Sylhet to the beaches, hills, forests, and
+      hidden gems across Bangladesh.
+    </p>
 
-            <button className="mt-8 rounded-lg bg-[#FF9D0A] px-6 py-3 font-semibold text-[#172536] hover:bg-[#E88400]">
-              Explore Packages
-            </button>
-          </div>
-        </div>
+    {/* Search */}
+    <div className="mt-8 w-full">
+     
+    </div>
+  </div>
       </section>
     </div>
   );
