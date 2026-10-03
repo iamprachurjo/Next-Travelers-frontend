@@ -31,13 +31,6 @@ const destinations = [
       "https://greenbelt.com.bd/wp-content/uploads/2025/09/%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%AE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%B2-%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C-Sreemangal-Tour-Package-9.webp",
   },
   {
-    id: 4,
-    title: "Gazipur",
-    hotels: "12 Hotels Available",
-    image:
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&auto=format&fit=crop",
-  },
-  {
     id: 5,
     title: "Cox's Bazar",
     hotels: "52 Hotels Available",
