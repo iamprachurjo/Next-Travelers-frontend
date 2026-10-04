@@ -92,7 +92,7 @@ const Footer = () => {
 
               <li>
                 <Link
-                  href="/contact-us"
+                  href="/contact"
                   className="transition hover:text-[#FF9D0A]"
                 >
                   Contact Us

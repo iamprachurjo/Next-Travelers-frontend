@@ -107,7 +107,7 @@ const PackagesSection = () => {
 
                 {/* Button */}
                 <Link
-                  href={`/packagedetails/${pkg.id}`}
+                  href={'/packagedetails'}
                   className="flex items-center justify-between text-sm font-semibold text-[#172536] transition hover:text-[#FF9D0A]"
                 >
                   <span>View Package Details</span>
