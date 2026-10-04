@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 
 const blogs = [
   {
-    id: 1,
     title: "Top Places to Visit in Sylhet",
     description:
       "Discover the beautiful tea gardens, waterfalls, rivers, and hidden gems of Sylhet.",
@@ -16,7 +15,6 @@ const blogs = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDEGSrDt9apoJwO6gLOAbX0f59Ko7i6qbo-lXO75KqfljsSyXsDs15jksL&s=10",
   },
   {
-    id: 2,
     title: "A Complete Guide to Cox's Bazar",
     description:
       "Everything you need to know before planning your next beach getaway in Bangladesh.",
@@ -25,7 +23,6 @@ const blogs = [
     image: "https://www.tourismkeari.com/static/products/45e31bae7ecf9e.jpg",
   },
   {
-    id: 3,
     title: "Explore the Hills of Bandarban",
     description:
       "Experience breathtaking mountain views, local culture, and unforgettable adventures.",
@@ -113,7 +110,7 @@ const BlogSection = () => {
         >
           {blogs.map((blog) => (
             <motion.article
-              key={blog.id}
+              key={blog.title}
               variants={cardVariants}
               whileHover={{ y: -6 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
@@ -147,7 +144,7 @@ const BlogSection = () => {
                 </p>
 
                 <Link
-                  href={`/blog/${blog.id}`}
+                  href={"/details"}
                   className="mt-5 inline-flex items-center text-sm font-semibold text-[#172536] transition hover:text-[#FF9D0A]"
                 >
                   Read More

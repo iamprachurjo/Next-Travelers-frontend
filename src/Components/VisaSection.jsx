@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import {
   FiChevronDown,
   FiCheckCircle,
@@ -272,7 +271,7 @@ const VisaPage = () => {
         </div>
       </section>
 
-      
+
     </main>
   );
 };
